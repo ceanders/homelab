@@ -1,0 +1,7 @@
+---
+- hosts: local
+  become: yes
+  roles:
+    - role: subscription-manager-repos
+    - role: install-rpms
+    - role: tuned

@@ -1,0 +1,6 @@
+---
+- name: Subscribe to basic repos using Subscription Manager
+  rhsm_repository:
+    name: "{{ repos }}"
+    purge: yes
+    state: enabled
