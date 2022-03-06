@@ -1,0 +1,7 @@
+all:
+  hosts:
+  children:
+    local:
+      hosts:
+        rhel-kvm:
+          ansible_connection: local
