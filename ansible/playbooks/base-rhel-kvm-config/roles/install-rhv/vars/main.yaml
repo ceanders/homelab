@@ -1,0 +1,5 @@
+---
+packages:
+  - rhvm-appliance
+  - cockpit-ovirt-dashboard
+  - ovirt-ansible-collection

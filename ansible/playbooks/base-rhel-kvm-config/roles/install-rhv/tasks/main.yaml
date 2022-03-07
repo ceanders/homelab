@@ -1,0 +1,27 @@
+---
+- name: Reset DNF module 
+  command: "dnf -y module reset virt"
+
+- name: Set the DNF module for virt
+  command: "dnf -y module enable virt:av"
+
+- name: Run a DNF distrosync
+  command: "dnf -y distro-sync --nobest"
+
+- name: Install RHV packages
+  package:
+    name: "{{ packages }}"
+    state: present
+
+- name: Enable cockpit socket
+  ansible.builtin.systemd:
+    name: cockpit.socket
+    state: started
+    enabled: yes
+
+- name: Permit traffic in default zone for cockpit
+  firewalld:
+    service: cockpit
+    permanent: yes
+    immediate: yes
+    state: enabled

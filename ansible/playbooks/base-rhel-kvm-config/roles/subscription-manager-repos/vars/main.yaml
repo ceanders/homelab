@@ -1,5 +1,10 @@
 repos:
-  - rhel-8-for-x86_64-appstream-rpms
-  - rhel-8-for-x86_64-baseos-eus-rpms
   - rhel-8-for-x86_64-baseos-rpms
-  - ansible-2-for-rhel-8-x86_64-rpms
+  - rhel-8-for-x86_64-baseos-eus-rpms
+  - rhel-8-for-x86_64-appstream-rpms
+  - rhel-8-for-x86_64-appstream-eus-rpms
+  - rhv-4-mgmt-agent-for-rhel-8-x86_64-rpms
+  - fast-datapath-for-rhel-8-x86_64-rpms
+  - advanced-virt-for-rhel-8-x86_64-rpms
+  - openstack-16.2-cinderlib-for-rhel-8-x86_64-rpms
+  - rhceph-4-tools-for-rhel-8-x86_64-rpms
