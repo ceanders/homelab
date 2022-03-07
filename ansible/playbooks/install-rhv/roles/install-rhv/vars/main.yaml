@@ -3,3 +3,5 @@ packages:
   - rhvm-appliance
   - cockpit-ovirt-dashboard
   - ovirt-ansible-collection
+  - gluster-ansible-roles
+  - glusterfs-server

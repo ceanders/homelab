@@ -1,0 +1,5 @@
+---
+- name: Install IDM packages
+  package:
+    name: "{{ packages }}"
+    state: present

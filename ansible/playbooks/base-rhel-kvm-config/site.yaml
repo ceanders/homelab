@@ -5,4 +5,4 @@
     - role: subscription-manager-repos
     - role: tuned
     - role: install-base-rpms
-    - role: install-rhv
+    - role: cockpit

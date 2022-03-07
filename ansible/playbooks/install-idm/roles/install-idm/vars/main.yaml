@@ -1,0 +1,3 @@
+packages:
+  - ansible-freeipa
+  - cockpit-389-ds

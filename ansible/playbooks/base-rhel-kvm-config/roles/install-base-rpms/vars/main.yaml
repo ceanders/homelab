@@ -3,3 +3,7 @@ packages:
   - git
   - ansible
   - rhel-system-roles
+  - cockpit-composer
+  - cockpit-machines
+  - cockpit-pcp
+  - cockpit-podman
