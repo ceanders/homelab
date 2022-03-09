@@ -5,3 +5,4 @@ packages:
   - ovirt-ansible-collection
   - gluster-ansible-roles
   - glusterfs-server
+  - vdsm-gluster

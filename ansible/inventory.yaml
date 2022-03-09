@@ -1,16 +1,16 @@
 all:
   hosts:
   children:
-    local:
+    rhvserver:
       hosts:
-        rhel-kvm:
+        rhel:
           ansible_connection: local
     ipaserver:
       hosts:
-        rhel-kvm.homelab.cedricanderson.name:
+        rhel.lab.cedricanderson.name:
           ansible_connection: local
-          ipaserver_domain: homelab.cedricanderson.name
-          ipaserver_realm: HOMELAB.CEDRICANDERSON.NAME
+          ipaserver_domain: lab.cedricanderson.name
+          ipaserver_realm: LAB.CEDRICANDERSON.NAME
           ipaserver_setup_dns: yes
           ipaserver_auto_forwarders: yes
           ipaserver_allow_zone_overlap: yes

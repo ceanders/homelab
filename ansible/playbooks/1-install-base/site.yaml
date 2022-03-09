@@ -1,5 +1,5 @@
 ---
-- hosts: local
+- hosts: rhvserver
   become: yes
   roles:
     - role: subscription-manager-repos
