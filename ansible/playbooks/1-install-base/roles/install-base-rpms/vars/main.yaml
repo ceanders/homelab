@@ -7,3 +7,5 @@ packages:
   - cockpit-machines
   - cockpit-pcp
   - cockpit-podman
+  - ansible-freeipa
+  - cockpit-389-ds

@@ -1,7 +1,5 @@
 ---
 - hosts: ipaserver
   become: yes
-  roles:
-    - role: install-idm
 
 - import_playbook: /usr/share/doc/ansible-freeipa/playbooks/install-server.yml
