@@ -9,3 +9,5 @@ packages:
   - cockpit-podman
   - ansible-freeipa
   - cockpit-389-ds
+  - bind
+  - dhcp-server
